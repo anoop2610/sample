@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap");
+* {
+    font-family: overpass;
+}
+
+html {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* container1 */
+
+.container1 {
+    display: flex;
+}
+
+.card {
+    height: min-content;
+    width: fit-content;
+    border-radius: 1.5rem;
+    background-color: hsla(213, 19%, 18%, 0.5);
+    padding: 2.5rem;
+}
+
+.star {
+    background-color: hsl(213, 19%, 18%);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    line-height: 2px;
+}
+
+img {
+    width: 1.2rem;
+}
+
+h1 {
+    color: #FFF;
+}
+
+.text {
+    color: hsl(216, 12%, 54%);
+    line-height: 1.4rem;
+    margin-top: 1.2rem;
+    text-align: justify;
+}
+
+.rating-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-btn {
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    padding: 1.4rem;
+    font-size: large;
+    margin-top: 2.5rem;
+    line-height: 2rem;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.rating-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+/* container------2 */
+
+.container2 {
+    display: none;
+}
+
+.recipt {
+    height: min-content;
+    width: fit-content;
+    border-radius: 1.5rem;
+    background-color: hsla(213, 19%, 18%, 0.5);
+    padding: 2.5rem;
+}
+
+.bill-img {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+    height: max-content;
+    width: max-content;
+}
+
+.rating-div,
+.thank-you {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rating {
+    background: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    width: max-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3rem;
+}
+
+.recipt .text {
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+/* test */
+
+.rating-clicked {
+    color: white;
+    background: hsl(217, 12%, 63%);
+}
